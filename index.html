@@ -1,6 +1,7 @@
 ```html
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,7 +87,7 @@
             background: white;
             padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
         }
 
         .card h3 {
@@ -111,7 +112,7 @@
             background: white;
             padding: 25px;
             border-radius: 12px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
         }
 
         .panel h2 {
@@ -123,7 +124,8 @@
             border-collapse: collapse;
         }
 
-        th, td {
+        th,
+        td {
             padding: 12px;
             text-align: left;
             border-bottom: 1px solid #eee;
@@ -175,100 +177,106 @@
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-        <h2>MyDashboard</h2>
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>MyDashboard</h2>
 
-        <a href="#">Dashboard</a>
-        <a href="#">Users</a>
-        <a href="#">Products</a>
-        <a href="#">Reports</a>
-        <a href="#">Settings</a>
-    </aside>
+            <a href="#">Dashboard</a>
+            <a href="#">Users</a>
+            <a href="#">Products</a>
+            <a href="#">Reports</a>
+            <a href="#">Settings</a>
+        </aside>
 
-    <!-- Main Content -->
-    <main class="main">
+        <!-- Main Content -->
+        <main class="main">
 
-        <div class="header">
-            <h1>Dashboard</h1>
-            <div class="profile">
-                👤 JasonHukom
-            </div>
-        </div>
-
-        <!-- Statistics -->
-        <div class="cards">
-
-            <div class="card">
-                <h3>Total Users</h3>
-                <p>1,300</p>
+            <div class="header">
+                <h1>Dashboard</h1>
+                <div class="profile">
+                    👤 JasonHukom
+                </div>
             </div>
 
-            <div class="card">
-                <h3>Total Products</h3>
-                <p>400</p>
+            <!-- Statistics -->
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Total Users</h3>
+                    <p>1,300</p>
+                </div>
+
+                <div class="card">
+                    <h3>Total Products</h3>
+                    <p>400</p>
+                </div>
+
+                <div class="card">
+                    <h3>Total Revenue</h3>
+                    <p>Rp 100M</p>
+                </div>
+
             </div>
 
-            <div class="card">
-                <h3>Total Revenue</h3>
-                <p>Rp 100M</p>
+            <!-- Content -->
+            <div class="content">
+
+                <div class="panel">
+                    <h2>Recent Users</h2>
+
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                        </tr>
+
+                        <tr>
+                            <td>Andi</td>
+                            <td>andi@email.com</td>
+                            <td class="status">Active</td>
+                        </tr>
+
+                        <tr>
+                            <td>Budi</td>
+                            <td>budi@email.com</td>
+                            <td class="status">Active</td>
+                        </tr>
+
+                        <tr>
+                            <td>Citra</td>
+                            <td>citra@email.com</td>
+                            <td class="status">Active</td>
+                        </tr>
+                        <tr>
+                            <td>Bambang</td>
+                            <td>bambang@email.com</td>
+                            <td class="status">Active</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="panel">
+                    <h2>Aktivitas</h2>
+
+                    <p>Login berhasil</p>
+                    <hr><br>
+
+                    <p>Produk baru ditambahkan</p>
+                    <hr><br>
+
+                    <p>User baru terdaftar</p>
+                </div>
+
             </div>
 
-        </div>
+        </main>
 
-        <!-- Content -->
-        <div class="content">
-
-            <div class="panel">
-                <h2>Recent Users</h2>
-
-                <table>
-                    <tr>
-                        <th>Nama</th>
-                        <th>Email</th>
-                        <th>Status</th>
-                    </tr>
-
-                    <tr>
-                        <td>Andi</td>
-                        <td>andi@email.com</td>
-                        <td class="status">Active</td>
-                    </tr>
-
-                    <tr>
-                        <td>Budi</td>
-                        <td>budi@email.com</td>
-                        <td class="status">Active</td>
-                    </tr>
-
-                    <tr>
-                        <td>Citra</td>
-                        <td>citra@email.com</td>
-                        <td class="status">Active</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="panel">
-                <h2>Aktivitas</h2>
-
-                <p>Login berhasil</p>
-                <hr><br>
-
-                <p>Produk baru ditambahkan</p>
-                <hr><br>
-
-                <p>User baru terdaftar</p>
-            </div>
-
-        </div>
-
-    </main>
-
-</div>
+    </div>
 
 </body>
+
 </html>
 ```
